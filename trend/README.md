@@ -26,6 +26,13 @@
 
 - 어떻게 (how to solve)
 
+주어진 데이터 버퍼를 만들때 사용된 `behavioral policy`에 대해서는 알 수 있는 것이 
+`Doubly Robust Estimator`
+
+
+![dr_eq](assets/doubly_robust.png)
+
+
 ## Exploration & Exploitation (Efficient Learning)
 
 ## Safe RL (Constrained RL)
