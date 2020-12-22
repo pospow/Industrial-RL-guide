@@ -49,16 +49,23 @@ Some helpful guidelines for prospective industrial RL engineers (written in Kore
  
  > **"You don't learn to walk by following rules. You learn by doing, and by falling over" - Richard Branson**
  
- 강화학습이 실물과의 상호작용을 통해 데이터로부터는 어느정도 자유로워진 것이 사실이지만, 세상에 공짜점심이 없듯이 강화학습에서도 길잡이 역할을 해줄 Reward 설계가 필수적이므로 처음부터 끝까지 기계가 100% 자동으로 학습하는 것은 아직 불가능합니다. 그래서 현재 이 부분에 대해서 연구가 활발히 진행되고 있고 멀지 않은 미래에는 기계 스스로가 유의미한 task와 reward를 스스로 선정하여 학습하는 날이 오지 않을까요?  
+ 강화학습이 실물과의 상호작용을 통해 데이터로부터는 어느정도 자유로워진 것이 사실이지만, 세상에 공짜점심이 없듯이 강화학습에서도 길잡이 역할을 해줄 Reward 설계가 필수적이므로 처음부터 끝까지 기계가 100% 자동으로 학습하는 것은 아직 불가능합니다. 그래도 이 부분에 대해서 현재 연구가 활발히 진행되고 있는만큼 멀지 않은 미래에는 기계 스스로가 유의미한 task와 reward를 선정하여 학습하는 날이 오지 않을까요?  
  
 
-
 ## 강화학습 연구를 위한 필수(혹은 선택적) 소양
-  
+ - Tensorflow and Pytorch 
+ - 확률/통계 관련 수학적 이론 지식
+ - 인공신경망 기반 특징점(latent variable) 추출의 이해 (CNN, LSTM, Variational Auto-Encoder 등)
+ - 병렬 프로그래밍 (python multiprocessing or mpi4py)
+ - 통신 (시뮬레이션 프로그램 사용시 TCP/IP, FMI)
+ - git 
  
  
 ## 최근 강화학습 연구 트렌드 (feat. NeurIPS 2020)
- 
- 
- 
- 
+ - Off-policy(Offline) RL
+ - Exploration & exploitation 
+ - Safe RL (Constrained RL)
+ - Generalization & Adaptation
+ - Representation Learning
+ - Optimization
+ - Reward Design
